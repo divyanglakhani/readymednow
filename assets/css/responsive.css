@@ -1,0 +1,1701 @@
+:root {
+  --primary: #00a2e8;
+  --secondary: #4C4C4C;
+  --white: #ffffff;
+  --black: #000000;
+  --border: #dcdcdc;
+  --primary-font: 'poppins' !important;
+}
+
+/*----------------------------------*/
+/*--------Responsive CSS---------*/
+/*----------------------------------*/
+
+@media(min-width:576px) {}
+
+@media(min-width:768px) {
+
+  /* .fourth-section-about-us{
+    display: flex;
+  } */
+  /* .second-section-about-us{
+      display: flex!important;
+    } */
+  .circle-ozompic {
+    display: flex !important;
+  }
+
+  .fourth-section-ozempic .row {
+    display: flex !important;
+  }
+
+  .vc_col-sm-3 {
+    width: 25%;
+  }
+
+  .vc_col-sm-1,
+  .vc_col-sm-10,
+  .vc_col-sm-11,
+  .vc_col-sm-2,
+  .vc_col-sm-3,
+  .vc_col-sm-4,
+  .vc_col-sm-5,
+  .vc_col-sm-6,
+  .vc_col-sm-7,
+  .vc_col-sm-8,
+  .vc_col-sm-9 {
+    float: left !important;
+  }
+
+  .vc_col-sm-1\/5 {
+    width: 20%;
+  }
+
+  .vc_col-sm-1\/5,
+  .vc_col-sm-2\/5,
+  .vc_col-sm-3\/5,
+  .vc_col-sm-4\/5,
+  .vc_col-sm-5\/5 {
+    float: left;
+  }
+
+  .vc_col-lg-1\/5,
+  .vc_col-lg-2\/5,
+  .vc_col-lg-3\/5,
+  .vc_col-lg-4\/5,
+  .vc_col-lg-5\/5,
+  .vc_col-md-1\/5,
+  .vc_col-md-2\/5,
+  .vc_col-md-3\/5,
+  .vc_col-md-4\/5,
+  .vc_col-md-5\/5,
+  .vc_col-sm-1\/5,
+  .vc_col-sm-2\/5,
+  .vc_col-sm-3\/5,
+  .vc_col-sm-4\/5,
+  .vc_col-sm-5\/5,
+  .vc_col-xs-1\/5,
+  .vc_col-xs-2\/5,
+  .vc_col-xs-3\/5,
+  .vc_col-xs-4\/5,
+  .vc_col-xs-5\/5 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+@media(min-width:991px) {
+  .fifth-section-index .col-lg-4 {
+    flex: 0 0 auto;
+    width: 42.333333%;
+  }
+  .left-second-section-index-sub{
+    padding-right: 100px;
+  }
+  .border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.right-second-section-index {
+  border-left: 1px solid #cfcfcf;
+}
+}
+
+@media(min-width:1200px) {}
+
+@media(max-width:576px) {
+  h2.vc_custom_heading.vc_custom_1684391376901 {
+    font-size: 30px;
+  }
+
+  .vc_custom_1679145616541 {
+    padding-right: 10px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .vc_column_container>.vc_column-inner {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* .topBarBtn {
+    padding: 3px 35px;
+} */
+  .top-bar span {
+    font-size: 12px;
+  }
+
+  .appointment_row .wpb_column {
+    padding: 10px;
+  }
+
+  .slider-content h1 {
+    font-size: 30px !important;
+  }
+
+  .vc_general.vc_btn3.vc_btn3-size-md {
+    padding: 16px 42px !important;
+  }
+
+  .second-section-index {
+    padding: 0 0 30px 0;
+  }
+
+  .sixth-section-weight-loss p {
+    padding: 25px 0 7px 0 !important;
+  }
+  .second-section-therapy .h2 {
+    line-height: 33px;
+}
+.h2.elementor-heading-title.elementor-size-default.font_size {
+  line-height: 35px;
+}
+  .second-section-contact {
+    padding: 40px 11px;
+  }
+
+  input.wpcf7-form-control.wpcf7-submit.button.square {
+    width: 45% !important;
+  }
+
+  .third-section-paperwork img {
+    width: 100%;
+  }
+
+  .second-section-paperwork h1 {
+    font-size: 30px !important;
+  }
+
+  .second-section-paperwork h5 {
+    font-size: 18px;
+  }
+
+  .second-section-paperwork a {
+    font-size: 20px;
+  }
+
+  .second-section-corona .row img {
+    width: 29% !important;
+    height: 54% !important;
+  }
+
+  .button {
+    padding: 16px 22px !important;
+  }
+
+  .second-section-telemedicine {
+    padding: 10px 0;
+  }
+
+  .second-section-therapy iframe,
+  .second-section-therapy-women iframe,
+  .second-section-custom iframe {
+    height: auto;
+  }
+
+  .top_info_box.linked {
+    width: 100% !important;
+  }
+
+  .col-lg-6.col-md-6.col-sm-6.col-xs-12.d-flex.right-top-info {
+    padding: 0 !important;
+  }
+
+  i.fa.fa-calendar {
+    padding-left: 10px !important;
+  }
+
+  /* i.fa.fa-mobile {
+    padding-left: 13px !important;
+  } */
+}
+
+@media(max-width:768px) {
+  .right-fifth-section-index img {
+    width: 105%;
+  }
+
+  .right-fifth-section-index img {
+    margin-top: 40px;
+  }
+
+  .vc-hoverbox-wrapper.vc-hoverbox-width--100 .vc-hoverbox {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #slider-5-slide-9-layer-0 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  /* .second-section-index h4 {
+  text-align: center;
+}
+.second-section-index p {
+  text-align: center;
+} */
+  .second-section-index h4,
+  .second-section-index h2,
+  .second-section-index p {
+    text-align: center !important;
+  }
+
+  .left-second-section-index {
+    border-right: 0px solid #cfcfcf;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .left-slider-content {
+    position: absolute;
+    top: 143%;
+    left: 0px;
+    width: 100%;
+    color: #001963;
+    transform: translateY(-50%);
+    padding: 1px;
+    text-align: center;
+  }
+
+  .rs-layer#slider-5-slide-9-layer-1 h1 {
+    font-size: 20px !important;
+  }
+
+  rs-layer#slider-5-slide-9-layer-1 {
+    font-size: 16px !important;
+  }
+
+  .left-slider-content h1 {
+    font-size: 26px !important;
+  }
+
+  .left-slider-content p {
+    font-size: 14px !important;
+  }
+
+  .col-sm-6 {
+    width: 100% !important;
+  }
+
+  i.fa.fa-calendar {
+    padding-left: 0px;
+  }
+
+  .col-lg-6.col-md-6.col-sm-6.col-xs-12.d-flex.right-top-info {
+    display: block !important;
+    /* display: flex; */
+  }
+
+  .left-third-index img {
+    width: 100% !important;
+  }
+
+  .second-section-about-us img {
+    padding: 10px 0;
+  }
+
+  .second-section-about-us .row {
+    padding: 10px;
+  }
+
+  .third-section-works img {
+    width: 100% !important;
+  }
+
+  .third-section-works-img {
+    padding: 20px;
+  }
+
+  #first-circle,
+  #second-circle,
+  #third-circle,
+  #fourth-circle,
+  #fifth-circle {
+    display: inline-block;
+  }
+
+  .circle-ozompic {
+    text-align: center;
+  }
+
+  .second-section-subtitle-ozembic {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .second-section-title-ozembic {
+    font-size: 23px !important;
+  }
+
+  .third-row a {
+    margin: 10px;
+  }
+  .top-info .container{
+    max-width: unset!important;
+  }
+
+}
+
+@media(max-width:991px) {
+  ul#menu-main-menu{
+    flex-direction: column;
+  }
+  li#menu-item-819 {
+    padding: 0px!important;
+}
+  .another-section-covid .content p {
+    text-align: center;
+}
+.heading-another-section {
+  justify-content: center;
+}
+  .top_nav {
+    display: none;
+  }
+
+  /* .social-links {
+    display: flex;
+    justify-content: center;
+} */
+  #footer .col-lg-6 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .right-fifth-section-index img {
+    vertical-align: middle;
+    margin-top: 65px;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  .left-fifth-section-index {
+    padding: 30px 30px 30px 30px !important;
+  }
+
+  .fourth-section-index {
+    padding: 0 30px;
+  }
+
+  .col-lg-6.right-third-index {
+    padding: 20px 0;
+  }
+
+  .col-sm-6.top-right-content-second-index {
+    padding: 20px 0;
+  }
+
+  .col-sm-6.top-right-content-second-index {
+    text-align: center !important;
+  }
+
+  .vc_row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .left-slider-content b {
+    font-size: 11px;
+  }
+
+  .discover-more {
+    background-color: var(--primary);
+    border-radius: 50px;
+    /* height: 45px; */
+    width: 176px;
+    color: #fff;
+    font-size: 15px;
+    border: unset;
+  }
+
+  .left-slider-content {
+    top: 140%;
+  }
+
+  .third-section-paperwork img {
+    width: 90%;
+  }
+
+  .second-row {
+    margin-top: 20px !important;
+  }
+
+  .second-section-ozempic a {
+    display: flex;
+    margin: 10px 0;
+  }
+  .cart.cart-1.min-768.top_nav_menu {
+    display: none;
+}
+i.fa.fa-shopping-cart {
+  right: 11px;
+  position: absolute;
+  top: 30px;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column!important;
+}
+ul#menu-main-menu > li > a {
+  padding: 10px 20px!important;
+  display: inline-flex;
+  height: auto;
+  text-align: center;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+  margin: 0px!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+  margin: 0px!important;
+}
+.navbar>.container{
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+}
+li#menu-item-1635 {
+  margin: 0 150px 0 0;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute!important;
+}
+.offcanvas-header {
+  padding: 0px!important;
+}
+ul#menu-main-menu>li>ul:before {
+  left: 127px;
+}
+}
+
+@media(max-width:1200px) {
+  .right-section-nootropics {
+    padding: 50px 0;
+  }
+}
+
+
+@media screen and (max-width: 1600px) and (min-width: 1200px) {}
+
+@media screen and (max-width: 1199px) and (min-width: 991px) {
+  .second-section-ozempic a {
+    padding: 12px 26px;
+    font-size: 14px !important;
+  }
+
+  .common-circle {
+    height: 200px;
+    width: 200px !important;
+    padding: 10px;
+  }
+
+  .vc-hoverbox-block-inner {
+    margin: -21px;
+  }
+ 
+  .heading-another-section img {
+    width: 32%;
+}
+span.cart-items-count.count {
+  top: 28px;
+}   
+.navbar-nav li.nav-item {
+  padding: 0px 0px;
+}
+img.logo-image {
+  width: 50%;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+  width: 20%;
+}
+a.nav-link ,a.dropdown-item {
+  font-size: 18px!important;
+}
+.third-section-glwl{
+  margin-top: -10px;
+  padding-right: 200px;
+  padding-left: 200px;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  aside.widget.widget_contacts.wpb_content_element.vc_widgets.vc_custom_1679145616541.style_1 {
+    display: inline-block;
+    margin-left: 45%;
+  }
+
+  .vc-hoverbox-block-inner {
+    margin: -21px;
+  }
+
+  .third-section-weight-loss video {
+    width: auto;
+    height: 402px;
+  }
+  .heading-another-section img {
+    width: 15%;
+}
+
+  .fourth-section-weight-loss .new-patient-form {
+    padding: 9px;
+    width: 35%;
+  }
+
+  .col-lg-3.d-flex.stats {
+    width: 25%;
+  }
+
+  .sixth-section-index .col-lg-4 {
+    width: 33%;
+  }
+
+  .vc_general.vc_btn3.vc_btn3-size-md {
+    padding: 16px 13px !important;
+  }
+
+  .left-fifth-section-index {
+    padding: 30px 30px 30px 30px !important;
+  }
+
+  .vc-hoverbox-wrapper.vc-hoverbox-width--100 .vc-hoverbox {
+    width: 110% !important;
+  }
+
+  .fourth-section-index {
+    padding: 0 50px;
+  }
+
+  .col-lg-6.right-third-index {
+    padding: 50px 0;
+  }
+
+  h1 {
+    font-size: 39px !important;
+  }
+
+
+  .discover-more {
+    font-size: 16px;
+  }
+
+  .top_nav img {
+    width: 10%;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+  }
+
+  /* .col-sm-1 {
+  width: 8.33333333%;
+} */
+  .navbar-nav li.nav-item a {
+    font-size: 12px;
+  }
+
+  i.fa.fa-cart-arrow-down {
+    font-size: 30px;
+  }
+
+  .top_nav img {
+    height: 80px;
+    width: 90px;
+  }
+
+  .col-lg-6.d-flex.left-top-info {
+    width: 48% !important;
+  }
+
+  a.nav-link.book-a-service {
+    font-size: 12px;
+  }
+
+  .navbar-nav li.nav-item {
+    padding: 0px 5px;
+  }
+
+  .top_nav img {
+    padding: 7px 0;
+  }
+
+  #first-circle,
+  #second-circle,
+  #third-circle,
+  #fourth-circle,
+  #fifth-circle {
+    height: 140px;
+    width: 150px !important;
+    padding: 5px;
+  }
+
+  .common-circle p {
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+
+  .right-fifth-section-index img {
+    margin-left: 20%;
+    width: 100%;
+  }
+
+  .first-section-anti-anging .content {
+    padding: 100px 0px;
+  }
+
+  .first-section-anti-anging .content h1 {
+    font-size: 28px !important;
+  }
+
+  .first-section-anti-anging .content h2 {
+    font-size: 26px !important;
+  }
+
+  .first-section-muscle-recovery .content {
+    padding: 100px 0px;
+  }
+
+  .first-section-muscle-recovery .content h1 {
+    font-size: 28px !important;
+  }
+
+  .first-section-muscle-recovery .content h2 {
+    font-size: 26px !important;
+  }
+
+  .first-section-nootropics .content {
+    padding: 100px 0px;
+  }
+
+  .first-section-nootropics .content h1 {
+    font-size: 28px !important;
+  }
+
+  .first-section-nootropics .content h2 {
+    font-size: 26px !important;
+  }
+  .mobile-offcanvas {
+    visibility: hidden;
+    transform: translateX(-100%);
+    border-radius: 0;
+    display: block;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1200;
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+    background-color: #fff !important;
+  }
+  span.cart-items-count.count {
+    top: 24px;
+}
+img.logo-image{
+  width: 20%!important;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+  width: 20%;
+}
+a.navbar-brand img {
+  width: 20%!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+  margin: 0px!important;
+}
+.mobile-offcanvas.show {
+  visibility: visible;
+  transform: translateX(0);
+  padding-top: 70px;
+}
+li#menu-item-1635 {
+  padding: 10px 20px;
+}
+a.nav-link ,a.dropdown-item {
+  font-size: 18px!important;
+}
+.cart.min-768.top_nav_menu {
+  top: 24px;
+  position: absolute;
+  right: 40px;
+}
+.button {
+  padding: 7px 33px !important;
+}
+.third-section-nootropics1 p {
+  margin-bottom: 10px!important;
+} 
+.vc-hoverbox-block-inner.vc-hoverbox-back-inner p{
+    line-height: 25px;
+    font-weight: 300;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.third-section-glwl {
+  margin-top: 0px;
+  padding-right: 125px;
+  padding-left: 125px;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+.fourth-section-glwl .content {
+padding-right: 125px;
+padding-left: 125px;
+}
+.fourth-section-glwl .content p{
+margin-bottom: 1rem!important;
+}
+.chat-section-glwl iframe {
+width: 70%;
+}
+.fourth-section-glwl .content p {
+font-size: 16px;
+}
+.fourth-section-glwl .content ul li {
+font-size: 16px;
+}
+
+}
+
+
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .right-fifth-section-index {
+    margin-left: -30px;
+  }
+
+  .circle-ozompic {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .third-section-weight-loss video {
+    width: auto;
+    height: 269px;
+  }
+  .button {
+    padding: 16px 17px !important;
+}
+  .fourth-section-weight-loss .new-patient-form {
+    padding: 10px;
+    width: 46%;
+    font-size: 18px;
+  }
+
+  .left-fifth-section-index {
+    padding: 30px 30px 30px 30px !important;
+  }
+
+  .fourth-section-index {
+    padding: 0 35px;
+  }
+
+  h2.vc_custom_heading.vc_custom_1684391376901 {
+    font-size: 38px;
+  }
+
+  .col-lg-6 .right-third-index b {
+    font-size: 30px;
+  }
+
+  .col-lg-6.right-third-index {
+    padding: 20px 0;
+  }
+
+  .third-section-index .left-third-index img {
+    width: 100%;
+  }
+
+  .top-right-content-second-index a {
+    margin-top: 0px;
+    /* margin-right: 155px; */
+    /* text-align: center!important; */
+  }
+
+  .col-sm-6.top-right-content-second-index {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .third-section-vitamins h2,
+  .third-section-vitamins b {
+    font-size: 30px;
+  }
+
+
+  .col-lg-6.col-md-6.col-sm-6.col-xs-12.d-flex.right-top-info {
+    background-color: #26b4ff;
+  }
+
+  .third-section-about-us iframe {
+    width: 100%;
+    height: 291px;
+  }
+
+  .third-section-about-us iframe {
+    width: 100%;
+    height: 258px;
+  }
+
+  .second-section-telemedicine h2 {
+    font-size: 36px;
+  }
+
+  .second-section-telemedicine .col-lg-6 h4 {
+    font-size: 20px;
+  }
+
+  .second-section-therapy h2,
+  .second-section-therapy-women h2,
+  .second-section-custom h2 {
+    font-size: 38px !important;
+  }
+
+  .right-fifth-section-index img {
+    margin-left: 7%;
+    width: 100%;
+  }
+
+  .third-section-nootropics-heading b {
+    font-size: 40px !important;
+  }
+
+  .first-section-anti-anging .content {
+    padding: 80px 0px;
+  }
+
+  .first-section-anti-anging .content h1 {
+    font-size: 22px !important;
+  }
+
+  .first-section-anti-anging .content h2 {
+    font-size: 18px !important;
+  }
+
+  .first-section-muscle-recovery .content {
+    padding: 80px 0px;
+  }
+
+  .first-section-muscle-recovery .content h1 {
+    font-size: 22px !important;
+  }
+
+  .first-section-muscle-recovery .content h2 {
+    font-size: 18px !important;
+  }
+
+  .first-section-nootropics .content {
+    padding: 80px 0px;
+  }
+
+  .first-section-nootropics .content h1 {
+    font-size: 22px !important;
+  }
+
+  .first-section-nootropics .content h2 {
+    font-size: 18px !important;
+  }
+  .heading-another-section img {
+    width: 21%;
+}
+.heading-another-section {
+  padding: 20px 0;
+}
+.mobile-offcanvas {
+  visibility: hidden;
+  transform: translateX(-100%);
+  border-radius: 0;
+  display: block;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1200;
+  width: 60%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background-color: #fff !important;
+}
+span.cart-items-count.count {
+  top: 24px;
+}
+img.logo-image{
+width: 20%!important;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+width: 20%;
+}
+a.navbar-brand img {
+width: 20%!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+margin: 0px!important;
+}
+.mobile-offcanvas.show {
+visibility: visible;
+transform: translateX(0);
+padding-top: 70px;
+}
+li#menu-item-1635 {
+padding: 10px 20px;
+}
+a.nav-link ,a.dropdown-item {
+font-size: 18px!important;
+}
+.cart.min-768.top_nav_menu {
+top: 8px;
+position: absolute;
+right: 41px;
+}
+.third-section-glwl {
+  margin-top: 0px;
+  padding-right: 70px;
+  padding-left: 7%;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+.fourth-section-glwl .content {
+padding-right: 70px;
+padding-left: 70px;
+line-height: 25px!important;
+}
+.fourth-section-glwl .content p{
+margin-bottom: 1rem!important;
+}
+.chat-section-glwl iframe {
+width: 90%;
+}
+.fourth-section-glwl .content p {
+font-size: 16px;
+}
+.fourth-section-glwl .content ul li {
+font-size: 16px;
+}
+.col-lg-5.left-lasting-wl .content h1{
+font-size: 40px!important;
+}
+.button-glwl{
+padding: 16px 60px!important;
+}
+}
+
+@media screen and (max-width: 575px) and (min-width: 480px) {
+  .right-fifth-section-index img {
+    margin-left: 25%;
+  }
+
+  .third-section-nootropics-heading b {
+    font-size: 38px !important;
+  }
+
+  .third-section-about-us iframe {
+    width: 100%;
+    height: 258px;
+  }
+
+  .third-section-weight-loss video {
+    width: auto;
+    height: 255px;
+  }
+
+  .fourth-section-weight-loss .new-patient-form {
+    padding: 12px;
+    width: 47%;
+    font-size: 16px;
+  }
+
+  .fifth-section-weight-loss h3 {
+    font-size: 26px;
+  }
+
+  .second-section-weight-loss h2 {
+    font-size: 30px;
+  }
+
+  .breadcrumbs h1 {
+    font-size: 30px !important;
+  }
+
+  .sixth-section-weight-loss p {
+    padding: 0px 0;
+  }
+
+  .third-section-vitamins h2,
+  .third-section-vitamins b {
+    font-size: 25px;
+  }
+
+  .second-section-telemedicine h2 {
+    font-size: 36px;
+  }
+
+  .second-section-telemedicine .col-lg-6 h4 {
+    font-size: 20px;
+  }
+
+  .second-section-therapy h2,
+  .second-section-therapy-women h2,
+  .second-section-custom h2 {
+    font-size: 34px !important;
+  }
+
+  .first-section-anti-anging .content {
+    padding: 60px 0px;
+  }
+
+  .first-section-anti-anging .content h1 {
+    font-size: 18px !important;
+  }
+
+  .first-section-anti-anging .content h2 {
+    font-size: 14px !important;
+  }
+
+  .first-section-muscle-recovery .content {
+    padding: 60px 0px;
+  }
+
+  .first-section-muscle-recovery.content h1 {
+    font-size: 18px !important;
+  }
+
+  .first-section-muscle-recovery .content h2 {
+    font-size: 14px !important;
+  }
+
+  .first-section-nootropics .content {
+    padding: 60px 0px;
+  }
+
+  .first-section-nootropics.content h1 {
+    font-size: 18px !important;
+  }
+
+  .first-section-nootropics .content h2 {
+    font-size: 14px !important;
+  }
+  .heading-another-section img {
+    width: 21%!important;
+}
+.heading-another-section {
+  padding: 15px 0;
+}
+.another-section-covid .content p {
+  font-size: 18px!important;
+}
+ .mobile-offcanvas {
+    visibility: hidden;
+    transform: translateX(-100%);
+    border-radius: 0;
+    display: block;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1200;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+    background-color: #fff !important;
+  }
+  span.cart-items-count.count {
+    top: 24px;
+}
+img.logo-image{
+  width: 20%!important;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+  width: 20%;
+}
+a.navbar-brand img {
+  width: 20%!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+  margin: 0px!important;
+}
+.mobile-offcanvas.show {
+  visibility: visible;
+  transform: translateX(0);
+  padding-top: 70px;
+}
+li#menu-item-1635 {
+  padding: 10px 20px;
+}
+a.nav-link ,a.dropdown-item {
+  font-size: 16px!important;
+}
+.cart.min-768.top_nav_menu {
+  top: 5px;
+  position: absolute;
+  right: 41px;
+}
+.third-section-glwl {
+  margin-top: 0px;
+  padding-right: 70px;
+  padding-left: 7%;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+.fourth-section-glwl .content {
+padding-right:20px;
+padding-left: 20px;
+line-height: 25px!important;
+}
+.fourth-section-glwl .content p{
+margin-bottom: 1rem!important;
+}
+.chat-section-glwl iframe {
+width: 90%;
+}
+.fourth-section-glwl .content p {
+font-size: 16px;
+}
+.fourth-section-glwl .content ul li {
+font-size: 16px;
+}
+.col-lg-5.left-lasting-wl .content h1{
+font-size: 40px!important;
+}
+.button-glwl{
+padding: 16px 60px!important;
+}
+.col-lg-7.right-lasting-wl video {
+width: 100%;
+height: 100%;
+}
+.col-lg-7.right-lasting-wl {
+z-index: 1 !important;
+padding-top: 15px !important;
+padding-left: 15px !important;
+padding-bottom: 15px !important;
+}
+}
+
+@media screen and (max-width: 479px) and (min-width: 380px) {
+  .vc_custom_1679145616541 {
+    padding-top: 15px !important;
+    padding-right: 45px !important;
+    padding-bottom: 15px !important;
+    padding-left: 45px !important;
+  }
+
+  .third-section-nootropics-heading b {
+    font-size: 30px !important;
+  }
+
+  #footer {
+    text-align: left;
+  }
+
+  .seventh-section-index .col-lg-6 {
+    width: 50%;
+  }
+  .heading-another-section img {
+    width: 30%!important;
+}
+.heading-another-section {
+  padding: 15px 0;
+}
+.another-section-covid .content p {
+  font-size: 18px!important;
+}
+  .right-fifth-section-index img {
+    margin-left: 36%;
+    width: 110%;
+  }
+
+  .third-section-about-us iframe {
+    width: 100%;
+    height: 202px;
+  }
+
+  .third-section-weight-loss video {
+    width: auto;
+    height: 200px;
+  }
+
+  .fourth-section-weight-loss .col-lg-7 h2 {
+    font-size: 32px;
+  }
+
+  .fourth-section-weight-loss .new-patient-form {
+    padding: 13px;
+    width: 55%;
+    font-size: 15px;
+  }
+
+  .fifth-section-weight-loss h3 {
+    font-size: 26px;
+  }
+
+  .second-section-weight-loss h2 {
+    font-size: 28px;
+  }
+
+  .breadcrumbs h1 {
+    font-size: 30px !important;
+  }
+
+  .sixth-section-weight-loss p {
+    padding: 0px 0;
+  }
+
+  .seventh-section-weight-loss a {
+    padding: 11px 31px;
+  }
+
+  .seventh-section-weight-loss h3 {
+    font-size: 20px;
+  }
+
+  .third-section-vitamins h2,
+  .third-section-vitamins b {
+    font-size: 22px;
+  }
+
+  .second-section-telemedicine h2 {
+    font-size: 34px;
+  }
+
+  .second-section-telemedicine .col-lg-6 h4 {
+    font-size: 18px;
+  }
+
+  .second-section-therapy h2,
+  .second-section-therapy-women h2,
+  .second-section-custom h2 {
+    font-size: 30px !important;
+  }
+
+  .col-lg-4.text-center img {
+    width: 100%;
+  }
+
+  .right-fifth-section-index img {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  .first-section-anti-anging .content {
+    padding: 50px 0px;
+  }
+
+  .first-section-anti-anging .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-anti-anging .content h2 {
+    font-size: 13px !important;
+  }
+
+  .first-section-muscle-recovery .content {
+    padding: 50px 0px;
+  }
+
+  .first-section-muscle-recovery .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-muscle-recovery .content h2 {
+    font-size: 13px !important;
+  }
+
+  .first-section-nootropics .content {
+    padding: 50px 0px;
+  }
+
+  .first-section-nootropics .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-nootropics .content h2 {
+    font-size: 13px !important;
+  }
+  .mobile-offcanvas {
+    visibility: hidden;
+    transform: translateX(-100%);
+    border-radius: 0;
+    display: block;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1200;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+    background-color: #fff !important;
+  }
+  span.cart-items-count.count {
+    top: 24px;
+}
+img.logo-image{
+  width: 20%!important;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+  width: 20%;
+}
+a.navbar-brand img {
+  width: 20%!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+  margin: 0px!important;
+}
+.mobile-offcanvas.show {
+  visibility: visible;
+  transform: translateX(0);
+  padding-top: 70px;
+}
+li#menu-item-1635 {
+  padding: 10px 20px;
+}
+a.nav-link ,a.dropdown-item {
+  font-size: 14px!important;
+}
+.cart.min-768.top_nav_menu {
+  top: 0px;
+  position: absolute;
+  right: 41px;
+}
+ul#menu-main-menu>li .sub-menu a , li#menu-item-237{
+  font-size: 16px;
+}
+.third-section-glwl {
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 2%;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+.fourth-section-glwl .content {
+padding-right: 20px;
+padding-left: 20px;
+line-height: 25px!important;
+}
+.fourth-section-glwl .content p{
+margin-bottom: 1rem!important;
+}
+.chat-section-glwl iframe {
+width: 90%;
+}
+.fourth-section-glwl .content p {
+font-size: 16px;
+}
+.fourth-section-glwl .content ul li {
+font-size: 16px;
+}
+.col-lg-5.left-lasting-wl .content h1{
+font-size: 35px!important;
+}
+.button-glwl{
+padding: 16px 60px!important;
+}
+.col-lg-7.right-lasting-wl video {
+width: 100%;
+height: 100%;
+}
+.col-lg-7.right-lasting-wl {
+z-index: 1 !important;
+padding-top: 15px !important;
+padding-left: 15px !important;
+padding-bottom: 15px !important;
+}
+}
+
+@media screen and (max-width: 379px) {
+  .third-section-about-us iframe {
+    width: 100%;
+    height: 166px;
+  }
+
+  .third-section-weight-loss video {
+    width: auto;
+    height: 162px;
+  }
+
+  .fourth-section-weight-loss .col-lg-7 h2 {
+    font-size: 24px;
+  }
+
+  .fourth-section-weight-loss .new-patient-form {
+    padding: 13px;
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .sixth-section-weight-loss img.image1 {
+    height: auto;
+  }
+
+  .fifth-section-weight-loss h3 {
+    font-size: 26px;
+  }
+
+  .second-section-weight-loss h2 {
+    font-size: 23px;
+  }
+
+  .breadcrumbs h1 {
+    font-size: 27px !important;
+  }
+
+  .sixth-section-weight-loss p {
+    padding: 0px 0;
+  }
+
+  .seventh-section-weight-loss a {
+    padding: 12px 3px;
+  }
+
+  .seventh-section-weight-loss h3 {
+    font-size: 20px;
+  }
+
+  .third-section-vitamins h2,
+  .third-section-vitamins b {
+    font-size: 20px;
+  }
+
+  .second-section-telemedicine h2 {
+    font-size: 34px;
+  }
+
+  .second-section-telemedicine .col-lg-6 h4 {
+    font-size: 18px;
+  }
+
+  .third-section-telemedicine h3 {
+    font-size: 34px;
+  }
+
+  .third-section-genetic a {
+    padding: 16px 34px;
+  }
+
+  .second-section-therapy h2,
+  .second-section-therapy-women h2,
+  .second-section-custom h2 {
+    font-size: 26px !important;
+  }
+
+  .row.third-row {
+    justify-content: center;
+  }
+
+  .col-lg-4.text-center img {
+    width: 100%;
+  }
+
+  .right-fifth-section-index img {
+    margin-left: 48%;
+  }
+
+  .third-section-nootropics-heading b {
+    font-size: 30px !important;
+  }
+
+  .vc-hoverbox-inner :last-child {
+    margin-bottom: 15px;
+  }
+
+  .first-section-anti-anging .content {
+    padding: 70px 10px;
+  }
+
+  .first-section-anti-anging .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-anti-anging .content h2 {
+    font-size: 13px !important;
+  }
+
+  .first-section-muscle-recovery .content {
+    padding: 70px 10px;
+  }
+
+  .first-section-muscle-recovery .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-muscle-recovery .content h2 {
+    font-size: 13px !important;
+  }
+
+  .first-section-nootropics .content {
+    padding: 70px 10px;
+  }
+
+  .first-section-nootropics .content h1 {
+    font-size: 16px !important;
+  }
+
+  .first-section-nootropics .content h2 {
+    font-size: 13px !important;
+  }
+  .heading-another-section img {
+    width: 30%!important;
+    height: 20%;
+}
+.heading-another-section {
+  padding: 15px 0;
+}
+.another-section-covid .content p {
+  font-size: 17px!important;
+}
+.mobile-offcanvas {
+  visibility: hidden;
+  transform: translateX(-100%);
+  border-radius: 0;
+  display: block;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1200;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+  background-color: #fff !important;
+}
+span.cart-items-count.count {
+  top: 24px;
+  right: 3px;
+}
+img.logo-image{
+width: 20%!important;
+}
+a.navbar-brand.d-none.d-lg-block.bottom_left{
+width: 20%;
+}
+a.navbar-brand img {
+width: 20%!important;
+}
+.mainmenu-nav .mainmenu > li, ul#menu-main-menu > li {
+margin: 0px!important;
+}
+.mobile-offcanvas.show {
+visibility: visible;
+transform: translateX(0);
+padding-top: 70px;
+}
+li#menu-item-1635 {
+padding: 10px 20px;
+}
+a.nav-link ,a.dropdown-item {
+font-size: 14px!important;
+}
+.cart.min-768.top_nav_menu {
+top: -10px;
+position: absolute;
+right: 41px;
+}
+ul#menu-main-menu>li .sub-menu a , li.menu-item{
+  font-size: 18px;
+}
+ul#menu-main-menu>li .sub-menu a {
+  padding: 10px 5px;
+}
+ul#menu-main-menu>li>ul:before {
+  left: 135px;
+}
+.third-section-glwl {
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 2%;
+  left: 0;
+}
+.main-content-glwl-third p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #015bbc;
+}
+.left-image {
+padding: 10px;
+}
+.fourth-section-glwl .content {
+padding-right: 20px;
+padding-left: 20px;
+line-height: 25px!important;
+}
+.fourth-section-glwl .content p{
+margin-bottom: 1rem!important;
+}
+.chat-section-glwl iframe {
+width: 90%;
+}
+.fourth-section-glwl .content p {
+font-size: 16px;
+}
+.fourth-section-glwl .content ul li {
+font-size: 16px;
+}
+.col-lg-5.left-lasting-wl .content h1{
+font-size: 35px!important;
+}
+.button-glwl {
+  padding: 10px 40px!important;
+}
+.col-lg-7.right-lasting-wl video {
+width: 100%;
+height: 100%;
+}
+.col-lg-7.right-lasting-wl {
+z-index: 1 !important;
+padding-top: 15px !important;
+padding-left: 15px !important;
+padding-bottom: 15px !important;
+}
+}
